@@ -1,0 +1,12 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<history>
+   <processor signature="arm-none-eabi-gcc -mcpu=cortex-m0 -mthumb -g -nostartfiles -Map=Stepper.map -O0 --gc-sections -LC:\CooCox\CoIDE\configuration\ProgramData\Stepper -TC:\CooCox\CoIDE\configuration\ProgramData\Stepper/arm-gcc-link.ld -g">
+      <target file="Stepper.elf" lastModified="153f24d9841">
+         <source file="..\obj\stm32f0xx_rcc.o" lastModified="153f24d9478"/>
+         <source file="..\obj\main.o" lastModified="153f24d94e4"/>
+         <source file="..\obj\startup_stm32f0xx.o" lastModified="153f24d9504"/>
+         <source file="..\obj\system_stm32f0xx_temp.o" lastModified="153f24d95cf"/>
+         <source file="..\obj\stm32f0xx_gpio.o" lastModified="153f24d966b"/>
+      </target>
+   </processor>
+</history>
